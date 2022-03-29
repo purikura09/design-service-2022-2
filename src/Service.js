@@ -41,7 +41,7 @@ export default function Service() {
         </div>
 
         <div className="p-3 mx-4 " id="box-3">
-          <img src={site} />
+          <img src={site} alt="web" />
           <div className="Details" alt="Web">
             <h2>
               Site <br /> Internet

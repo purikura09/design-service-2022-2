@@ -19,7 +19,7 @@ export default function App() {
       <Tabs>
         <TabList>
           <Tab>Home</Tab>
-          <img className="Logo" src={logo} />
+          <img className="Logo" src={logo} alt="logo" />
           <Tab>Service</Tab>
         </TabList>
 
