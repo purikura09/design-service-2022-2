@@ -3,7 +3,6 @@ import digital from "./img/digital.png";
 import graphic from "./img/graphic.png";
 import site from "./img/site.png";
 
-import { Container, Col, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Style.css";
@@ -16,7 +15,7 @@ export default function Service() {
         id="grid"
       >
         <div className="p-3 mx-4 " id="box-1">
-          <img src={graphic} />
+          <img src={graphic} alt="Graphic" />
           <div className="Details">
             <h2>
               Graphique
@@ -30,7 +29,7 @@ export default function Service() {
         </div>
 
         <div className=" p-3  mx-4 " id="box-2">
-          <img src={digital} />
+          <img src={digital} alt="Digital" />
           <div className="Details">
             <h2>
               Content <br /> Digital
@@ -43,7 +42,7 @@ export default function Service() {
 
         <div className="p-3 mx-4 " id="box-3">
           <img src={site} />
-          <div className="Details">
+          <div className="Details" alt="Web">
             <h2>
               Site <br /> Internet
             </h2>

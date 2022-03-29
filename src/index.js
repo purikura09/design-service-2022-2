@@ -4,8 +4,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 
 import App from "./App";
-import Home from "./Home";
-import Service from "./Service";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
