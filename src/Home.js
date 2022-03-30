@@ -3,6 +3,8 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import insta from "./img/insta.png";
+import linkedin from "./img/linkedin.png";
 import "./Style.css";
 
 export default function Home() {
@@ -12,8 +14,14 @@ export default function Home() {
         <Row className="Box justify-content-md-center">
           <Col className="Card">
             <div className="Picture"></div>
-            <h1>Rebecca</h1>
-            <h2>Web Designer basée en Suisse</h2>
+            <br />
+            <h2>Rebecca</h2>
+            <p>
+              UI / UX et Digital Designer <br /> basée en Suisse
+            </p>
+            <p>FR | ENG</p>
+            <img className="mx-3" src={insta} />
+            <img className="mx-3" src={linkedin} />
           </Col>
         </Row>
       </Container>

@@ -4,7 +4,6 @@ import graphic from "./img/graphic.png";
 import site from "./img/site.png";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import "./Style.css";
 
 export default function Service() {
@@ -22,8 +21,8 @@ export default function Service() {
               <br /> Design
             </h2>
             <p>
-              Création ou retouche de vos supports graphiquea (logo, carte de
-              visite etc...)
+              Création ou retouche de vos supports graphique tels que votre logo
+              ou carte de visite.
             </p>
           </div>
         </div>
@@ -35,7 +34,8 @@ export default function Service() {
               Content <br /> Digital
             </h2>
             <p>
-              Création de contenu digitaux (bannières, réseaux sociaux etc...)
+              Création de vos contenus digitaux tels que des bannières (ads) ou
+              vos publications sur les réseaux sociaux.
             </p>
           </div>
         </div>
@@ -47,8 +47,8 @@ export default function Service() {
               Site <br /> Internet
             </h2>
             <p>
-              Un site standard développer avec une plateforme simple à reprendre
-              par la suite.
+              Un site vitrine pour présenter votre marque développé avec une
+              plateforme simple à reprendre par la suite.
             </p>
           </div>
         </div>
