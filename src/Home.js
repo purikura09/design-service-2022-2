@@ -20,8 +20,8 @@ export default function Home() {
               UI / UX et Digital Designer <br /> basée en Suisse
             </p>
             <p>FR | ENG</p>
-            <img className="mx-3" src={insta} />
-            <img className="mx-3" src={linkedin} />
+            <img className="mx-3" src={insta} alt="instragram" />
+            <img className="mx-3" src={linkedin} alt="linkedin" />
           </Col>
         </Row>
       </Container>
