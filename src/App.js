@@ -18,7 +18,7 @@ export default function App() {
     <div>
       <Tabs>
         <TabList>
-          <Tab>Home</Tab>
+          <Tab>Contact</Tab>
           <img className="Logo" src={logo} alt="logo" />
           <Tab>Service</Tab>
         </TabList>
