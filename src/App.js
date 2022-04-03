@@ -6,7 +6,7 @@ import "react-tabs/style/react-tabs.css";
 import "./App.css";
 import Home from "./Home";
 
-import logo from "./img/logo.png";
+import logo from "./img/logo.svg";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

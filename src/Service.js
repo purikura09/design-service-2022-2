@@ -9,16 +9,13 @@ import "./Style.css";
 export default function Service() {
   return (
     <div id="service">
-      <div
-        className="box h-100 d-inline-flex flex-row align-items-center "
-        id="grid"
-      >
+      <div className="box h-100 d-inline-flex flex-row align-items-center ">
         <div className="p-3 mx-4 " id="box-1">
           <img src={graphic} alt="Graphic" />
           <div className="Details">
             <h2>
-              Graphique
-              <br /> Design
+              Design
+              <br /> Graphique
             </h2>
             <p>
               Création ou retouche de vos supports graphique tels que votre logo
@@ -26,7 +23,6 @@ export default function Service() {
             </p>
           </div>
         </div>
-
         <div className=" p-3  mx-4 " id="box-2">
           <img src={digital} alt="Digital" />
           <div className="Details">
@@ -39,7 +35,6 @@ export default function Service() {
             </p>
           </div>
         </div>
-
         <div className="p-3 mx-4 " id="box-3">
           <img src={site} alt="web" />
           <div className="Details" alt="Web">
