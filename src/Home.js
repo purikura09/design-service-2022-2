@@ -25,18 +25,18 @@ export default function Home() {
             <a
               href="https://www.instagram.com/rebi0906/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <img className="mx-3" src={insta} height={40} alt="instragram" />
             </a>
             <a
               href="https://www.linkedin.com/in/haberli-reb"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <img className="mx-3" src={linkedin} height={40} alt="linkedin" />
             </a>
-            <a href="mailto:rbk@ik.me" target="_blank" rel="noopener">
+            <a href="mailto:rbk@ik.me" target="_blank" rel="noreferrer">
               <img className="mx-3" src={mail} height={40} alt="linkedin" />
             </a>
             <br /> <br />
