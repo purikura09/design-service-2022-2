@@ -22,13 +22,21 @@ export default function Home() {
               basée en Suisse pour du
               <br /> <b>"Design minimaliste"</b>
             </p>
-            <a href="https://www.instagram.com/rebi0906/" target="_blank">
+            <a
+              href="https://www.instagram.com/rebi0906/"
+              target="_blank"
+              rel="noopener"
+            >
               <img className="mx-3" src={insta} height={40} alt="instragram" />
             </a>
-            <a href="https://www.linkedin.com/in/haberli-reb" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/haberli-reb"
+              target="_blank"
+              rel="noopener"
+            >
               <img className="mx-3" src={linkedin} height={40} alt="linkedin" />
             </a>
-            <a href="mailto:rbk@ik.me" target="_blank">
+            <a href="mailto:rbk@ik.me" target="_blank" rel="noopener">
               <img className="mx-3" src={mail} height={40} alt="linkedin" />
             </a>
             <br /> <br />
