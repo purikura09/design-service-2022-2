@@ -17,11 +17,11 @@ export default function Home() {
             <div className="Picture"></div>
             <br />
             <h1>Rebecca</h1>
-            <h2>UI & Digital designer</h2>
+            <h2>Web designer</h2>
             <p>
-              basée en Suisse pour du
-              <br /> <b>"Design minimaliste"</b>
+              basée en Suisse pour des <h1>petits designs</h1>
             </p>
+            <br />
             <a
               href="https://www.instagram.com/rebi0906/"
               target="_blank"
