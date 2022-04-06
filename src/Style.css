@@ -48,16 +48,17 @@ p {
   height: 570px;
   text-align: center;
   color: #fff;
-  padding-top: 70px;
+  padding-top: 50px;
   margin: 20px;
 }
 .Picture {
   margin: 0 auto;
-  height: 160px;
-  width: 160px;
+  height: 170px;
+  width: 170px;
   border-radius: 50%;
   background-image: url(./img/rebecca.png);
   background-position: center;
+
 }
 #service {
   text-align: center;

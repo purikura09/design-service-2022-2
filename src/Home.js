@@ -21,7 +21,6 @@ export default function Home() {
             <p>
               basée en Suisse pour des <h1>petits designs</h1>
             </p>
-            <br />
             <a
               href="https://www.instagram.com/rebi0906/"
               target="_blank"

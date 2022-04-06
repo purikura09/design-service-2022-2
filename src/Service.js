@@ -18,8 +18,7 @@ export default function Service() {
               <br /> Graphique
             </h2>
             <p>
-              Création ou retouche pour votre logo, carte de visite ou autres
-              supports graphiques.
+              Création ou retouche de votre logo ou autres supports graphiques.
             </p>
           </div>
         </div>
@@ -42,7 +41,7 @@ export default function Service() {
               Site <br /> Internet
             </h2>
             <p>
-              Une page vitrine pour vous mettre en avant dans le milieu du web.
+              Une page vitrine pour avoir une présence dans le monde digital.
             </p>
           </div>
         </div>
