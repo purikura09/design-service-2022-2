@@ -80,11 +80,11 @@ p {
 }
 #box-1,
 #box-3 {
-  background-color: #9190f3;
+  background-color: #4142c2;
 }
 
 #box-2 {
-  background-color: #4142c2;
+  background-color: #9190f3;
 }
 .Details {
   margin-top: 100px;
@@ -109,6 +109,24 @@ p {
   animation: bounce2 3s ease infinite;
   animation-delay: 5s;
 }
+.Digital {
+
+  border: none;
+  color: #fff;
+}
+.Digital button {
+  margin: 0 auto;
+}
+
+.modal-content {
+  background: linear-gradient(100.59deg, #4142C2 0%, #9190F3 100%);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.modal-header .btn-close {
+  display: none;
+}
+
 
 @keyframes bounce2 {
   0%,

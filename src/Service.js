@@ -1,4 +1,5 @@
 import React from "react";
+import Digital from "./Digital";
 import digital from "./img/digital.png";
 import graphic from "./img/graphic.png";
 import site from "./img/site.png";
@@ -11,6 +12,17 @@ export default function Service() {
     <div id="service">
       <div className="box h-100 d-inline-flex flex-row align-items-center ">
         <div className="p-3 mx-4 " id="box-1">
+          <img src={digital} alt="Digital" />
+          <div className="Details">
+            <h2>
+              Content <br /> Digital
+            </h2>
+            <p>Valoriser vos publications sur les réseaux sociaux. </p>
+            <Digital />
+          </div>
+        </div>
+
+        <div className=" p-3  mx-4 " id="box-2">
           <img src={graphic} alt="Graphic" />
           <div className="Details">
             <h2>
@@ -22,18 +34,7 @@ export default function Service() {
             </p>
           </div>
         </div>
-        <div className=" p-3  mx-4 " id="box-2">
-          <img src={digital} alt="Digital" />
-          <div className="Details">
-            <h2>
-              Content <br /> Digital
-            </h2>
-            <p>
-              Pour lancer votre campagne dans des sites partenaires ou les
-              réseaux sociaux.
-            </p>
-          </div>
-        </div>
+
         <div className="p-3 mx-4 " id="box-3">
           <img src={site} alt="web" />
           <div className="Details" alt="Web">
@@ -41,7 +42,8 @@ export default function Service() {
               Site <br /> Internet
             </h2>
             <p>
-              Une page vitrine pour avoir une présence dans le monde digital.
+              <b>1 page</b> vitrine pour présenter votre marque et être présent
+              dans le monde du web.
             </p>
           </div>
         </div>
