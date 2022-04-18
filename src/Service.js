@@ -1,5 +1,7 @@
 import React from "react";
 import Digital from "./Digital";
+import Graphic from "./Graphic";
+
 import digital from "./img/digital.png";
 import graphic from "./img/graphic.png";
 import site from "./img/site.png";
@@ -15,7 +17,7 @@ export default function Service() {
           <img src={digital} alt="Digital" />
           <div className="Details">
             <h2>
-              Content <br /> Digital
+              Contenu <br /> Digital
             </h2>
             <p>Valoriser vos publications sur les réseaux sociaux. </p>
             <Digital />
@@ -32,6 +34,7 @@ export default function Service() {
             <p>
               Création ou retouche de votre logo ou autres supports graphiques.
             </p>
+            <Graphic />
           </div>
         </div>
 
@@ -42,8 +45,8 @@ export default function Service() {
               Site <br /> Internet
             </h2>
             <p>
-              <b>1 page</b> vitrine pour présenter votre marque et être présent
-              dans le monde du web.
+              <b>1 page</b> vitrine pour marquer votre présence dans le monde
+              digital.
             </p>
           </div>
         </div>
