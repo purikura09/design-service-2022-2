@@ -10,6 +10,7 @@ export default function Web() {
       <a
         href="https://sites.google.com/view/hr-littledesign/accueil"
         target="_blank"
+        rel="noreferrer"
       >
         <Button
           className="rounded-pill px-4 border border-white"
