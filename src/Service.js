@@ -1,6 +1,7 @@
 import React from "react";
 import Digital from "./Digital";
 import Graphic from "./Graphic";
+import Web from "./Web";
 
 import digital from "./img/digital.png";
 import graphic from "./img/graphic.png";
@@ -45,9 +46,9 @@ export default function Service() {
               Site <br /> Internet
             </h2>
             <p>
-              <b>1 page</b> vitrine pour marquer votre présence dans le monde
-              digital.
+              <b>1 site web</b> vitrine pour être présent dans le monde digital.
             </p>
+            <Web />
           </div>
         </div>
       </div>
